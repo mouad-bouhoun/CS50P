@@ -10,8 +10,9 @@
 #print(F"Hello, {name}")
 #print("Hello,", name)
 #print("Hello, "+ name)
-def hello(to):
+def hello(to="World"):
     print("Hello,", to)
 
+hello()
 name = input("What is your name? ")
 hello(name)
