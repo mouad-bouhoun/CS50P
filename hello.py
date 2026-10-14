@@ -10,7 +10,7 @@
 #print(F"Hello, {name}")
 #print("Hello,", name)
 #print("Hello, "+ name)
-def hello(to="World"):
+def hello(to="friend"):
     print("Hello,", to)
 
 hello()
